@@ -1,12 +1,4 @@
-SELECT 
-    COLUMN_NAME, 
-    COLUMN_TYPE, 
-    IS_NULLABLE, 
-    COLUMN_KEY, 
-    COLUMN_DEFAULT, 
-    EXTRA
-FROM 
-    INFORMATION_SCHEMA.COLUMNS
-WHERE 
-    TABLE_NAME = 'Books' 
-    AND TABLE_SCHEMA = 'alx_book_store';
+USE alx_book_store;
+
+INSERT INTO Customers (customer_id, customer_name, email, address)
+VALUES (1, 'John Doe', 'johndoe@example.com', '123 Main Street');
