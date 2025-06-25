@@ -1,4 +1,4 @@
 USE alx_book_store;
 
 INSERT INTO customer (customer_id, customer_name, email, address)
-VALUES (1, 'John Doe', 'johndoe@example.com', '123 Main Street');
+VALUES (1, 'Cole Baidoo', 'cbaidoo@sandtech.com', '123 Happiness Ave.');
